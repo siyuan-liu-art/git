@@ -1,0 +1,70 @@
+# OS and system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editors and IDEs
+.idea/
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+*.swp
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.local
+secrets/
+
+# Logs, temporary files, and caches
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# JavaScript and Node.js
+node_modules/
+.pnpm-store/
+.npm/
+.next/
+.nuxt/
+coverage/
+
+# .NET and Java
+bin/
+obj/
+target/
+*.class
+*.jar
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Local Codex workspace data
+.codex/
+.agents/
