@@ -1,4 +1,5 @@
 AK47
 98K
 M24
-mini
+miniM24
+S686
